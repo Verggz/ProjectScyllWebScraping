@@ -8,7 +8,7 @@ from flask import request,jsonify
 import GetRecipe
 
 app = flask.Flask(__name__)
-app.config["DEBUG"] = False
+app.config["DEBUG"] = True
 
 @app.route('/api/v1/getrecipe',methods=["GET"])
 def getRecipeEndpoint():
