@@ -20,6 +20,5 @@ def getRecipeEndpoint():
         return jsonify(GetRecipe.GetRecipeByName(request.args['name']))
 
 
-if __name__ == '__main__':
-    app.run()
+
 
